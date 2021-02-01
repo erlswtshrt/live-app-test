@@ -1,0 +1,12 @@
+{
+  "id": "TTNAjAIn7a0",
+  "manifest_version": 1,
+  "name": "live-app-test",
+  "version_name": "1.0",
+  "version_number": 1,
+  "sizing_mode": "fit_content",
+  "initial_height": 150,
+  "initial_width": 1200,
+  "js_files": ["dist/app.js"],
+  "css_files": ["dist/app.css"]
+}

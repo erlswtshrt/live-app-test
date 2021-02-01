@@ -1,0 +1,27 @@
+{
+  "name": "my-app",
+  "version": "0.0.1",
+  "description": "my-app Quip App",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "NODE_ENV=development webpack-dev-server --https",
+    "build": "NODE_ENV=production webpack; create-quip-app pack ./app"
+  },
+  "author": "",
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.1",
+    "install": "^0.13.0",
+    "npm": "^6.14.8",
+    "quip-apps-webpack-config": ">=0.0.39"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^26.6.1",
+    "core-js": "^3.6.5",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "quip-apps-api": "^0.1.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.7.1"
+  }
+}
